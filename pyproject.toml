@@ -1,6 +1,13 @@
 [tool.setuptools]
 packages = []
 
+[tool.pytest.ini_options]
+addopts = "-v --cov"
+
+[tool.coverage.run]
+branch = true
+include = ["olympics/*", "tests/*"]
+
 [project]
 name = 'olympics'
 version = '0.1'
