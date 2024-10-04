@@ -2,7 +2,7 @@
 packages = []
 
 [tool.pytest.ini_options]
-addopts = "-v --cov"
+addopts = "-v --cov=olympics --cov=tests --cov-report=term-missing"
 
 [tool.coverage.run]
 branch = true
