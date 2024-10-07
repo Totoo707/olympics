@@ -16,7 +16,7 @@ parser.add_argument(
 parser.add_argument(
     '--top',
     help='number of top elements to display',
-    type=float,
+    type=int,
     default=10,
 )
 
@@ -29,7 +29,7 @@ def main(argv=None):
             cli.top_countries(top)
         case 'collective':
             cli.top_collective(top)
-        case 'individual':
+        case 'individual':  
             cli.top_individual(top)
 
 
