@@ -79,7 +79,7 @@ def test_top_individual():
     rows = db.get_top_individual()
     assert len(rows) > 2
 
-
+ 
 
 
 

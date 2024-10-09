@@ -18,5 +18,5 @@ def test_main_invalid_top():
   with pytest.raises(argparse.ArgumentTypeError):
         argv = ['individual', '--top', '-1']
         main(argv)
-
+ 
 

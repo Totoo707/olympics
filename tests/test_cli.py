@@ -21,6 +21,6 @@ def test_top_individual():
     cli.top_individual(file=string)
     text = string.getvalue()
     assert 'Top' in text
-    
+     
    
 
