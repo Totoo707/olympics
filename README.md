@@ -281,11 +281,16 @@ ajoutez-les à la fin de ce fichier.
 
 
 7/File dans ces fonctions permet de Rediriger la sortie mais aussi par consequent de faciliter les tests et les rendre plus flexibles .
+
 8/# pragma: no cover est un commentaire utilisé pour indiquer que certaines lignes de code doivent etre ignoré lors des test de couverture 
+
 9/100% de couverture signifie que toutes les lignes de code ont été exécutées au moins une fois lors des tests.Mais can'assure pas le fonctionnement total il y a differents types de test a éffectué pour etre certains que tout fonctionne par exemple des test de performance ou bien de sécurité .
+
 10/ Cet ordre pour les tests aide à mieux gérer les erreurs potentiel et à s'assurer que le code fonctionne bien, tout en rendant le processus de développement plus clair.
 
+Github action :j'ai essayé a 3 reprises en modifiants le contenue du python-tests.yml dans le dossier workflow que j'ai crer mais j'ai des erreurs sur le dépot git a chaque fois
 
+Ruff : j'ai installé ruff et crer le fichier toml j'ai ensuite cherché des configuration assez basique puis j'ai ensuite fait des tests pour verifier le code (ruff check olympics) .
 
 
 

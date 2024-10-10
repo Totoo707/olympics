@@ -1,0 +1,4 @@
+# Configuration pour Ruff
+select = ["E", "F", "W", "C90"]  # erreurs et avertissement
+ignore = ["E501"]  # Ignorez les erreurs de longueur de ligne
+line-length = 88  # Longueur de ligne maximale
